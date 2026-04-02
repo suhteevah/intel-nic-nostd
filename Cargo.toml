@@ -1,0 +1,15 @@
+[package]
+name = "intel-nic-nostd"
+version = "0.1.0"
+edition = "2021"
+authors = ["Matt Gates <matt@ridgecellrepair.com>"]
+license = "MIT OR Apache-2.0"
+description = "no_std Intel Ethernet NIC driver (e1000/I219/I225) for bare-metal Rust"
+repository = "https://github.com/suhteevah/intel-nic-nostd"
+keywords = ["ethernet", "e1000", "intel", "no_std", "bare-metal"]
+categories = ["no-std", "hardware-support", "network-programming"]
+readme = "README.md"
+rust-version = "1.70"
+
+[dependencies]
+log = { version = "0.4", default-features = false }
